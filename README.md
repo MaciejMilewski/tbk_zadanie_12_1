@@ -1,12 +1,14 @@
 # Instrukcja
-Uruchamianie
+Uruchamianie - w folderze fluentd
 ```sh
-echo "henlo"
+docker-compose up
 ```
-Usuwanie:
+Po uruchomieniu fluentd w folderze numbers
 ```sh
-echo "Im out"
+docker-compose up
 ``` 
 # Screenshot
-#### Grafana
-![](images/g.jpg)
+#### Kibana - w przeglądarce
+![](images/kibana_browser.jpg)
+#### Kibana - w Docker Desktop
+![](images/kibana_desktop.jpg)
